@@ -1,3 +1,7 @@
 # lean4-gamefiles
 
-lean4-gamefiles Learning the mechanics of Lean4 through games
+save files for https://adam.math.hhu.de/#/
+
+
+Learning the mechanics of Lean4 through games
+
