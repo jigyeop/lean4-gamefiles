@@ -11,7 +11,15 @@
     "Not",
     "apply",
     "intros",
-    "unfold"
+    "unfold",
+    "cases'",
+    "exfalso",
+    "linarith",
+    "simp",
+    "use",
+    "le_iff_exists_add",
+    "induction",
+    "Nat.add_succ"
   ],
   "readIntro": false,
   "data": {
@@ -82,10 +90,71 @@
         "help": []
       },
       "6": {
-        "code": "",
-        "completed": false,
-        "selections": [],
+        "code": "intro\nunfold Not at a\ncases' a with aL aR\nexfalso\napply aR\nexact aL\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 7,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 7,
+            "positionColumn": 1
+          }
+        ],
         "help": []
+      },
+      "7": {
+        "code": "linarith\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 2,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 2,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "8": {
+        "code": "simp\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 2,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 2,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "9": {
+        "code": "rw [le_iff_exists_add]\nuse 1\nlinarith\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 4,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 4,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "10": {
+        "code": "induction n\nsimp\nsimp\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 4,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 4,
+            "positionColumn": 1
+          }
+        ],
+        "help": [
+          0
+        ]
       },
       "readIntro": false
     }
