@@ -20,6 +20,19 @@
         "help": []
       },
       "2": {
+        "code": "assumption\n",
+        "completed": true,
+        "selections": [
+          {
+            "selectionStartLineNumber": 2,
+            "selectionStartColumn": 1,
+            "positionLineNumber": 2,
+            "positionColumn": 1
+          }
+        ],
+        "help": []
+      },
+      "3": {
         "code": "",
         "completed": false,
         "selections": [],
@@ -28,5 +41,6 @@
       "readIntro": false
     }
   },
-  "difficulty": 2
+  "difficulty": 2,
+  "typewriterMode": true
 }
